@@ -21,8 +21,8 @@ public class Lab1Application {
 		return args -> {
 			System.out.println("futja kot");
 			String[] beanNames = ctx.getBeanDefinitionNames();
-			Arrays.sort(beanNames);
-			for(String beanName : beanNames){
+            Arrays.sort(beanNames);
+			for(String beanName: beanNames){
 				System.out.println(beanNames);
 			}
 		};
